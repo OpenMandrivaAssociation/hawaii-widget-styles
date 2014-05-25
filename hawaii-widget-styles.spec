@@ -33,3 +33,4 @@ Hawaii widget styles.
 %makeinstall_std -C build
 
 %files
+%{_libdir}/qt5/qml/QtQuick/Controls/Styles/Aluminium
