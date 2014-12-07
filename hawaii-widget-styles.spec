@@ -3,7 +3,7 @@
 Summary:	Hawaii widget styles
 Name:		hawaii-widget-styles
 Version:	0.2.0
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/Other
 URL:		http://www.maui-project.org
@@ -26,7 +26,7 @@ Hawaii widget styles.
 %setup -q
 
 %build
-%cmake
+%cmake_qt5
 %make
 
 %install
