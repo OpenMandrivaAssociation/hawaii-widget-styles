@@ -35,3 +35,4 @@ Hawaii widget styles.
 
 %files
 %{_libdir}/qml/QtQuick/Controls/Styles/Aluminium
+%{_datadir}/color-schemes/Hawaii*.colors
