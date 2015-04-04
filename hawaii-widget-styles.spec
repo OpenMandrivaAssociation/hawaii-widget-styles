@@ -7,7 +7,7 @@ Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
 URL:		https://hawaii-desktop.github.io
-Source0:	http://downloads.sourceforge.net/project/mauios/hawaii/%{name}/%{name}-%{version}.tar.gz
+Source0:	https://github.com/hawaii-desktop/%{name}/archive/v%{version}.tar.gz
 Source1:	hawaii-widget-styles.rpmlintrc
 BuildRequires:	cmake
 BuildRequires:	cmake(ECM)
@@ -15,8 +15,8 @@ BuildRequires:	cmake(Qt5Quick) >= 5.2
 
 %track
 prog %{name} = {
-	url = http://downloads.sourceforge.net/project/mauios/hawaii/
-	regex = "%{name}-(__VER__)\.tar\.gz"
+	url = https://github.com/hawaii-desktop/%{name}/archive/
+	regex = "v(__VER__)\.tar\.gz"
 	version = %{version}
 }
 
