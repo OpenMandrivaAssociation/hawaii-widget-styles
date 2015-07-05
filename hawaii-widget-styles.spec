@@ -2,7 +2,7 @@
 
 Summary:	Hawaii widget styles
 Name:		hawaii-widget-styles
-Version:	0.4.0
+Version:	0.5.0
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
@@ -11,7 +11,7 @@ Source0:	https://github.com/hawaii-desktop/%{name}/archive/v%{version}.tar.gz
 Source1:	hawaii-widget-styles.rpmlintrc
 BuildRequires:	cmake
 BuildRequires:	cmake(ECM)
-BuildRequires:	cmake(Qt5Quick) >= 5.2
+BuildRequires:	cmake(Qt5Quick) >= 5.5
 
 %track
 prog %{name} = {
