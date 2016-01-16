@@ -2,21 +2,20 @@
 
 Summary:	Hawaii widget styles
 Name:		hawaii-widget-styles
-Version:	0.5.0
+Version:	0.5.1
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
-URL:		https://hawaii-desktop.github.io
-Source0:	https://github.com/hawaii-desktop/%{name}/archive/v%{version}.tar.gz
+URL:		http://www.hawaiios.org
+Source0:	https://github.com/hawaii-desktop/hawaii-widget-styles/releases/download/v%{version}/%{name}-%{version}.tar.xz
 Source1:	hawaii-widget-styles.rpmlintrc
-BuildRequires:	cmake
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(Qt5Quick) >= 5.5
 
 %track
 prog %{name} = {
-	url = https://github.com/hawaii-desktop/%{name}/archive/
-	regex = "v(__VER__)\.tar\.gz"
+	url = https://github.com/hawaii-desktop/hawaii-widget-styles/releases/download/v%{version}/
+	regex = "v(__VER__)\.tar\.xz"
 	version = %{version}
 }
 
