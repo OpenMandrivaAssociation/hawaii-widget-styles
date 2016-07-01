@@ -2,7 +2,7 @@
 
 Summary:	Hawaii widget styles
 Name:		hawaii-widget-styles
-Version:	0.6.90
+Version:	0.7.0
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
