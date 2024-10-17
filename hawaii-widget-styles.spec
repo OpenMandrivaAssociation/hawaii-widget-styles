@@ -6,7 +6,7 @@ Version:	0.8.0
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
-URL:		http://www.hawaiios.org
+URL:		https://www.hawaiios.org
 Source0:	https://github.com/hawaii-desktop/hawaii-widget-styles/releases/download/v%{version}/%{name}-%{version}.tar.gz
 Source1:	hawaii-widget-styles.rpmlintrc
 BuildRequires:	cmake(ECM)
